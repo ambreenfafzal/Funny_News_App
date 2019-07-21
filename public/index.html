@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
     <title>All Good News</title>
     <style>
-      body { background-color: #F2F6D0 }
+      body { background-color: #E8DAEF   }
       #wrapper {
         width: 960px;
         margin-left: auto;
@@ -34,15 +35,28 @@
         height: 200px;
         font-size: 18px;
       }
+      .jumbotron {
+        background-color: black;
+        color: #E8DAEF;
+      }
     </style>
   </head>
   <body>
-    <div id="wrapper">
-      <h1>All Good News</h1>
-      <h2><i>Click on the Article text to create a note.</i></h2>
-      <div id="articles"></div>
-      <div id="notes"></div>
-    </div>
+      <div class="jumbotron">
+          <h1 class="display-4">All Good News</h1>
+          <h1 class="lead">Click on the Article text to create a note.</h1>
+            
+        </div>
+     
+          <div id="wrapper">
+             
+              <div id="articles"></div>
+              <div id="notes"></div>
+             
+            </div>
+        
+    
+  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="app.js"></script>
   </body>
